@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {   StyleSheet , View , TouchableOpacity , Text , StatusBar} from 'react-native';
 import { connect } from 'react-redux';
 import * as actions from '../../actions'
 
-export default class ToolbarComponent extends Component {
+export default class ToolbarComponent extends PureComponent {
   
   onPressGetMoreButton(){
    this.props.clearState();

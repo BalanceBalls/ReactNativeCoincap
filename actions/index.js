@@ -1,7 +1,7 @@
 
 export function getApiData() {
     return (dispatch) => {
-        fetch('https://api.coinmarketcap.com/v2/ticker/?limit=30&structure=array')
+        fetch('https://api.coinmarketcap.com/v2/ticker/?limit=50&structure=array')
         .then((response) => response.json())
         .then((responseJson) => {
           dispatch(responseSuccessful(responseJson.data));

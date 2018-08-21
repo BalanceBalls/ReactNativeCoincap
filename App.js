@@ -15,7 +15,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk';
 import reducers from './reducers';
-
+import { Tabs } from './navigation/navigator';
 const store = createStore( reducers , applyMiddleware(thunk));
 
 
@@ -33,13 +33,14 @@ export default class App extends Component {
   render() {
     return (
     <Provider store={store}>
-      <View style={styles.container}>
+      {/* <View style={styles.container}>
         <Toolbar />
         <ScrollView style={styles.scrollview}>
         <PairList />
        
-        </ScrollView>
-      </View>
+        </ScrollView> */}
+        <Tabs />
+      {/* </View> */}
     </Provider>
     );
   }

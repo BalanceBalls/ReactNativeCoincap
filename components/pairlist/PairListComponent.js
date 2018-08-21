@@ -1,4 +1,4 @@
-import React, {PureComponent} from 'react';
+import React, {Component} from 'react';
 import { 
           TouchableOpacity,
           Modal,
@@ -15,7 +15,7 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions'
 
 
-class PairListComponent extends PureComponent {
+class PairListComponent extends Component {
     constructor() {
         super();
        

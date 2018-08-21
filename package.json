@@ -13,6 +13,7 @@
     "react-native-svg": "^6.5.2",
     "react-native-swipe-gestures": "^1.0.2",
     "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.11.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
