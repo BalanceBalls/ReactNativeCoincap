@@ -18,8 +18,8 @@ export const Tabs = createBottomTabNavigator({
     Map: {
       screen: Second,
       navigationOptions: {
-        tabBarLabel: 'Map',
-        tabBarIcon: ({ tintColor }) => <Icon name="map" size={35} color={tintColor} />
+        tabBarLabel: 'Web',
+        tabBarIcon: ({ tintColor }) => <Icon name="web" size={35} color={tintColor} />
       },
     },
   });

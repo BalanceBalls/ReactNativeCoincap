@@ -11,7 +11,6 @@ class ChartsComponent extends Component {
         super(props)
         this.props.getChartsData(this.props.pair);
         console.log('MY_DEBUG_PROPS', this.props.pair)
-       
     }
     
     render() {
